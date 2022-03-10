@@ -5,10 +5,12 @@
 ### Project objective: 
 As a Full Stack Developer, complete the features of the application by planning the development in terms of sprints and then push the source code to the GitHub repository. As this is a prototyped application, the user interaction will be via a command line. 
 ### Project Description:
-	This project is based on user experience prototype. In this project user can get file manipulation experience they can able to add, delete, search file and also user can get list of files present in the folder in ascending order. 
-	I desinged this project in strategy  pattern which is one of the type of behavioral design pattern so it will intisitilize object  of the selected class only so we can to use  less memory in heap area.First I created Interface(Locker) then I created Four class(AddFile,Delete File,SortFile,SearchFile)  in each and every of this four class I implemened the  method from Locker interface called doOperation. But each class have different implementation of that same method so that I can over ride that method easily. I created context class then I created constructor of this class to instialize the object of selected class of that four class(AddFile,Delete File,SortFile,SearchFile)  this construct get the instansiation of this object through call by value from main method  which is according to user option.I initialize object of context class in main method.For user intraction I created a new class in this class I can get input from user.
+This project is based on user experience prototype. In this project user can get file manipulation experience they can able to add, delete, search file and also user can get list of files present in the folder in ascending order. 
+
+I desinged this project in strategy  pattern which is one of the type of behavioral design pattern so it will intisitilize object  of the selected class only so we can to use  less memory in heap area.First I created Interface(Locker) then I created Four class(AddFile,Delete File,SortFile,SearchFile)  in each and every of this four class I implemened the  method from Locker interface called doOperation. But each class have different implementation of that same method so that I can over ride that method easily. I created context class then I created constructor of this class to instialize the object of selected class of that four class(AddFile,Delete File,SortFile,SearchFile)  this construct get the instansiation of this object through call by value from main method  which is according to user option.I initialize object of context class in main method.For user intraction I created a new class in this class I can get input from user.
+
 ### Sprints:
-	Sprints number: 3(Timebox  1 week 1 sprint)
+***Sprints number: 3(Timebox  1 week 1 sprint)***
  **Product story:** Collect the requirement such that the user story is: Independent Negotiable Valuable Estimatable Small Testable.
 	In each sprint create a reasonable product. Design product paradigm ,design modules ,integrate modules and test.
 	Sprint planning with Product Owner ,Scrum Master and Devolopment  Team. Daily Scrum to discuss and evaluate the progress.
