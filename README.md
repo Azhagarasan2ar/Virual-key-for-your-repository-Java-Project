@@ -11,40 +11,95 @@ I desinged this project in strategy  pattern which is one of the type of behavio
 
 ### Sprints:
 ***Sprints number: 3(Timebox  1 week 1 sprint)***
- **Product story:** Collect the requirement such that the user story is: Independent Negotiable Valuable Estimatable Small Testable.
-	In each sprint create a reasonable product. Design product paradigm ,design modules ,integrate modules and test.
-	Sprint planning with Product Owner ,Scrum Master and Devolopment  Team. Daily Scrum to discuss and evaluate the progress.
-	**Sprint Review:**Elicit feedback and foster collaboration. End of each week. At the end, the product is presented to the product owner for acceptance or refusal.
-	**Sprint Retrospective:** Meeting to plan and decide on enhancing and integrating in the next project.
+ **Product story:**
+Collect the requirement such that the user story is: Independent Negotiable Valuable Estimatable Small Testable.
+In each sprint create a reasonable product. Design product paradigm ,design modules ,integrate modules and test.
+Sprint planning with Product Owner ,Scrum Master and Devolopment  Team. Daily Scrum to discuss and evaluate the progress.
+**Sprint Review:**Elicit feedback and foster collaboration. End of each week. At the end, the product is presented to the product owner for acceptance or refusal.
+**Sprint Retrospective:** Meeting to plan and decide on enhancing and integrating in the next project.
 
-### Program Algorithm:
-Start the program.
-It will print the welcome message, company name and developers details.
-Then it will print the statement 1)File List 2)Business operation 3)Exit .
-	Waiting for input to and get the input from user.
-	If the the input is one it display the files in ascending order if no file exist it
-	Print the message like no file present and loop to the print statement.
-	If the the input is 2 it print the statement  1)Add 2)Delete 3)Search 4)Home.
-	And  waiting for input from user.
-	If the input is one it will go to add operation and ask for name to add.
-	Waiting for user input and get the user Input.
-	And  do add operation if the file already exist it shows file already exist message
-	and loop to Business Operation and ask for input
-	If the input is two it will go to delete operation and ask for file name to delete.
-	Waiting for user input and get the user Input.
-	And  do the delete operation if the file already exist it shows file doesnot exist message
-	and loop to Business Operation and ask for input.
-	If the input is three it will go to serarch operation and ask for file name to search.
-	Waiting for user input and get the user Input.
-And  do the search operation it check the file name in the folder.If file name doesnot match  shows file doesn’t exist message and loop to Business Operation and ask for input.
-	If the input is four it loop  to home menu.
-And Then it will print the statement 1)File List 2)Business operation 3)Exit .
-	Waiting for input to and get the input from user.
-	If the input is three It will terminate the program.
+Company Lockers Pvt. Ltd. hired you as a Full Stack Developer. They aim to digitize their products and chose LockedMe.com as their first project to start with. You’re asked to develop a prototype of the application. The prototype of the application will be then presented to the relevant stakeholders for the budget approval. Your manager has set up a meeting where you’re asked to present the following in the next 15 working days (3 weeks): 
+
+Specification document - Product’s capabilities, appearance, and user interactions
+
+Number and duration of sprints required 
+
+Setting up Git and GitHub account to store and track your enhancements of the prototype 
+
+Java concepts being used in the project 
+
+Data Structures where sorting and searching techniques are used. 
+
+Generic features and three operations: 
+
+Retrieving the file names in an ascending order
+
+Business-level operations:
+
+Option to add a user specified file to the application
+
+Option to delete a user specified file from the application
+
+Option to search a user specified file from the application
+
+Navigation option to close the current execution context and return to the main context
+
+Option to close the application
+
+ 
+
+The goal of the company is to deliver a high-end quality product as early as possible. 
+ 
+
+The flow and features of the application:
+
+Plan more than two sprints to complete the application
+
+Document the flow of the application and prepare a flow chart 
+
+List the core concepts and algorithms being used to complete this application
+
+Code to display the welcome screen. It should display:
+
+Application name and the developer details 
+
+The details of the user interface such as options displaying the user interaction information 
+
+Features to accept the user input to select one of the options listed 
+
+The first option should return the current file names in ascending order. The root directory can be either empty or contain few files or folders in it
+
+ The second option should return the details of the user interface such as options displaying the following:
+
+Add a file to the existing directory list
+
+You can ignore the case sensitivity of the file names 
+
+Delete a user specified file from the existing directory list
+
+You can add the case sensitivity on the file name in order to ensure that the right file is deleted from the directory list
+
+Return a message if FNF (File not found)
+
+Search a user specified file from the main directory
+
+You can add the case sensitivity on the file name to retrieve the correct file
+
+Display the result upon successful operation
+
+Display the result upon unsuccessful operation
+
+Option to navigate back to the main context
+
+There should be a third option to close the application
+
+Implement the appropriate concepts such as exceptions, collections, and sorting techniques for source code optimization and increased performance 
+
+
   
 ### Flow Chart:
 
-![Flow Chart](https://lucid.app/lucidchart/b6b3bf18-affb-4bc3-9473-d8ea7b8c7e7f/edit?page=0_0#)
+![Blank diagram (2)](https://user-images.githubusercontent.com/100947706/157736730-5bc7c3a3-a780-4bc4-9bf3-cbfc1b950bd2.jpeg)
 
  
 ### Tools used in this Project:
@@ -53,15 +108,16 @@ And Then it will print the statement 1)File List 2)Business operation 3)Exit .
 Git,GitHub,Scrum
 
 ***Concept used in the Project:
-	Abstraction,Encapsulation,Inheritance,Hieraricl Inheritance,Polymorphism(method overriding,constructor overloading),Exception handling,File Handling,Array,Collection Framework .***
+Abstraction,Encapsulation,Inheritance,Hieraricl Inheritance,Polymorphism(method overriding,constructor overloading),Exception handling,File Handling,Array,Collection Framework .***
 
 ### Datastructure and Algorithm:
- 	***Sorting:*** Heap Data Structure(min-Heap for sort ascending order)And Heap sort algorithm.
-	***Searching:*** Array Data Structure And Linear Search Algorithm and I use hashing technique to generate hash code of two string for string comparision.Two same string can generate same hashcode but we don’t assure that two different string can get different hashcode.In rare scenario it can generate same. So First it check two length of string then hashcode if two hashcode are same it check each char of both string.
+ ***Sorting:*** Heap Data Structure(min-Heap for sort ascending order)And Heap sort algorithm.
+***Searching:*** Array Data Structure And Linear Search Algorithm and I use hashing technique to generate hash code of two string for string comparision.Two same string can generate same hashcode but we don’t assure that two different string can get different hashcode.In rare scenario it can generate same. So First it check two length of string then hashcode if two hashcode are same it check each char of both string.
 
 ***Unique Selling Point: This project designed with well structured design Pattern so it will improve the user experience and more memory efficient. By using reliable data structure it will improve the quality of the product. It is user friendly so file manipulation are done easily. Stored procedures to reuse the code connect with database to implement on multiple devices.***
-	This prototype is more focused for user friendly and more efficient in user experience on file handling it can also further improve for future use.
-Github:
+This prototype is more focused for user friendly and more efficient in user experience on file handling it can also further improve for future use.
+
+
 
 
 
